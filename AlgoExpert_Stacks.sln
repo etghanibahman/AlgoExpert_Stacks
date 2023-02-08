@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxStackConstruction", "MinMaxStackConstruction\MinMaxStackConstruction.csproj", "{6D4A8E3B-FE97-411C-8A13-DA04569C6471}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinMaxStackConstruction", "MinMaxStackConstruction\MinMaxStackConstruction.csproj", "{6D4A8E3B-FE97-411C-8A13-DA04569C6471}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{DDFCE2A1-439F-493B-A33A-23DCF6B575EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedBrackets", "BalancedBrackets\BalancedBrackets.csproj", "{A96C71C0-8057-4D04-8E7C-E3248ED1BA2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,17 @@ Global
 		{6D4A8E3B-FE97-411C-8A13-DA04569C6471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D4A8E3B-FE97-411C-8A13-DA04569C6471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D4A8E3B-FE97-411C-8A13-DA04569C6471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96C71C0-8057-4D04-8E7C-E3248ED1BA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96C71C0-8057-4D04-8E7C-E3248ED1BA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96C71C0-8057-4D04-8E7C-E3248ED1BA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96C71C0-8057-4D04-8E7C-E3248ED1BA2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D4A8E3B-FE97-411C-8A13-DA04569C6471} = {DDFCE2A1-439F-493B-A33A-23DCF6B575EE}
+		{A96C71C0-8057-4D04-8E7C-E3248ED1BA2D} = {DDFCE2A1-439F-493B-A33A-23DCF6B575EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE7F6198-2FDA-4930-BFA8-0AA579A600CD}
